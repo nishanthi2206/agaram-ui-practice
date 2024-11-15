@@ -1,0 +1,14 @@
+body{
+     background-image : url(https://media.istockphoto.com/id/503016934/photo/entrance-of-luxury-hotel.jpg?s=612x612&w=0&k=20&c=DXFzucB2xWGf3PI6_yjhLKDvrFcGlOpOjXh6KDI8rqU=);
+     
+     
+
+     background-attachment: fixed, scroll;
+     background-repeat: no-repeat, repeat-y;
+     background-size: cover;
+     width: 300px;
+     height: 300px;
+}
+p{
+ color: azure;
+}
