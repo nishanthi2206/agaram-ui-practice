@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: red;
+        }
+        .container{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            gap:20px;
+        }
+        .container div{
+            width: 20%;
+            height: 200px;
+            border: 1px solid white;
+            background-image: url(https://images.pexels.com/photos/658687/pexels-photo-658687.jpeg?cs=srgb&dl=beautiful-bloom-blooming-658687.jpg&fm=jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        
+        
+        
+        }
+        @media only screen and (max-width:700px){
+            body{
+                background-color: yellow;
+             }
+           .container{
+            flex-wrap: wrap;
+
+          }
+          .container div{
+            width: 50%; 
+          }
+          
+         } 
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+
+    </div>
+    
+</body>
+</html>
