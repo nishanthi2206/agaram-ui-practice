@@ -94,7 +94,7 @@ else
   }
 let gender="female";
 if (gender=="female"){
-  console.log("color is pink")+
+  console.log("color is pink")
 }
 else if(gender=="male"){
   console.log("color is blue")
