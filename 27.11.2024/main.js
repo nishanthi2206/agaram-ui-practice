@@ -127,7 +127,7 @@ if(total>60){
   console.log(" you are elgble")
 }
 else{
-  cosole.log("you are notelgble")
+  console.log("you are notelgble")
 }
 
 
